@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <meta name="description" content="Personal portfolio and links" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <!-- Avatar + Intro -->
+    <header class="header">
+      <div class="avatar-wrapper">
+        <img src="https://avatars.githubusercontent.com/u/9919?v=4" alt="Profile photo" class="avatar" id="avatar" />
+      </div>
+      <h1 class="name">Your Name</h1>
+      <p class="tagline">Developer • Designer • Creator</p>
+      <p class="bio">
+        Building cool things on the internet. Currently exploring AI, open source, and clean design.
+      </p>
+    </header>
+
+    <!-- Social Links -->
+    <section class="links">
+      <a href="https://github.com/yourusername" class="link-card" target="_blank" rel="noopener">
+        <span class="icon">🐙</span>
+        <span class="label">GitHub</span>
+      </a>
+      <a href="https://twitter.com/yourusername" class="link-card" target="_blank" rel="noopener">
+        <span class="icon">🐦</span>
+        <span class="label">Twitter / X</span>
+      </a>
+      <a href="https://linkedin.com/in/yourusername" class="link-card" target="_blank" rel="noopener">
+        <span class="icon">💼</span>
+        <span class="label">LinkedIn</span>
+      </a>
+      <a href="mailto:you@example.com" class="link-card">
+        <span class="icon">✉️</span>
+        <span class="label">Email</span>
+      </a>
+      <a href="https://your-blog.com" class="link-card" target="_blank" rel="noopener">
+        <span class="icon">📝</span>
+        <span class="label">Blog</span>
+      </a>
+      <a href="https://your-project.com" class="link-card" target="_blank" rel="noopener">
+        <span class="icon">🚀</span>
+        <span class="label">Featured Project</span>
+      </a>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+      <h2>Featured Projects</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Project One</h3>
+          <p>Short description of what this project does and why it's cool.</p>
+          <div class="tags">
+            <span>React</span>
+            <span>TypeScript</span>
+          </div>
+          <a href="#" class="project-link" target="_blank">View Project →</a>
+        </article>
+        <article class="project-card">
+          <h3>Project Two</h3>
+          <p>Another awesome project you built. Keep the description concise.</p>
+          <div class="tags">
+            <span>Python</span>
+            <span>AI</span>
+          </div>
+          <a href="#" class="project-link" target="_blank">View Project →</a>
+        </article>
+        <article class="project-card">
+          <h3>Project Three</h3>
+          <p>Open source tool that helps people do something useful.</p>
+          <div class="tags">
+            <span>Node.js</span>
+            <span>CLI</span>
+          </div>
+          <a href="#" class="project-link" target="_blank">View Project →</a>
+        </article>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Built with ❤️ • Hosted on GitHub Pages</p>
+      <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
